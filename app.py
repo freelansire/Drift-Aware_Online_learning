@@ -108,7 +108,7 @@ def normalise_features(df, features, ref_size):
 # Streamlit UI
 # ------------------------------
 st.set_page_config(page_title="Drift-Aware Online Learning Demo", layout="wide")
-st.title("🌊 Drift-Aware Online Learning (Upload CSV + Live Demo)")
+st.title("🌊 Drift-Aware Online Learning")
 st.caption("Upload your own sensor CSV or use the built-in synthetic dataset. Live drift metrics (KL/W), LSTM error, anomaly flags, adaptation ON/OFF, and low-power mode.")
 
 st.markdown(
