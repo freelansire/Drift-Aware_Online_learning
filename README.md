@@ -2,7 +2,11 @@
 **Real-time drift monitoring + lightweight online learning for multivariate environmental sensor streams.**
 
 ## 🔗 Live Demo (Dashboard)
-- Streamlit demo: `[PASTE_YOUR_LIVE_DEMO_URL_HERE](https://drift-aware.streamlit.app/)`  
+- Streamlit demo: `[PASTE_YOUR_LIVE_DEMO_URL_HERE](https://drift-aware.streamlit.app/)`
+
+  ## 🔗 Live Demo (Dashboard)
+- Streamlit demo: `PASTE_YOUR_LIVE_DEMO_URL_HERE`  
+  *(Example: https://your-app-name.streamlit.app)*
 
 > This repository is **CLI-first** (reproducible runs + saved logs). The live demo link is provided for quick viewing in a browser.
 
