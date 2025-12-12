@@ -90,7 +90,7 @@ Adaptation OFF: model error tends to remain higher during drift windows
 Adaptation ON: model updates on drift (or periodically) → error stabilizes faster
 
 ### Citation
-@misc{moses_driftaware_onlinelearning_2025,
+@misc{orokpo_driftaware_onlinelearning_2025,
   title  = {Drift-Aware Online Learning for Real-Time Environmental Sensor Monitoring (CLI)},
   author = {Moses, Samuel},
   year   = {2025},
