@@ -94,5 +94,4 @@ Adaptation ON: model updates on drift (or periodically) → error stabilizes fas
   title  = {Drift-Aware Online Learning for Real-Time Environmental Sensor Monitoring (CLI)},
   author = {Moses, Samuel},
   year   = {2025},
-  note   = {Code and live demo},
 }
