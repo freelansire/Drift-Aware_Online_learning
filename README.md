@@ -1,14 +1,14 @@
-# 🌊 Drift-Aware Online Learning (CLI)
+## 🌊 Drift-Aware Online Learning (CLI)
 **Real-time drift monitoring + lightweight online learning for multivariate environmental sensor streams.**
 
-## 🔗 Live Demo (Dashboard)
+### 🔗 Live Demo (Dashboard)
  *([Drift Aware Demo](https://drift-aware.streamlit.app/))* 
 
 > This repository is **CLI-first** (reproducible runs + saved logs). The live demo link is provided for quick viewing in a browser.
 
 ---
 
-## Why this project
+### Why this project
 Environmental / IoT sensor networks drift over time (seasonality, sensor aging, pollution events). Static models degrade.  
 This project demonstrates a **drift-aware streaming pipeline** that:
 - monitors drift using **KL divergence** + **Wasserstein distance**
@@ -20,7 +20,7 @@ This project demonstrates a **drift-aware streaming pipeline** that:
 
 ---
 
-## ✨ Key Features
+### ✨ Key Features
 - **Streaming pipeline**: processes sensor readings step-by-step (simulated real-time)
 - **Drift detection**: KL + Wasserstein on rolling windows
 - **Online learning**: optional adaptation ON/OFF (compare performance)
@@ -29,7 +29,7 @@ This project demonstrates a **drift-aware streaming pipeline** that:
 
 ---
 
-## 📁 Repository Structure
+### 📁 Repository Structure
 ```txt
 DriftAware-OnlineLearning/
 ├── data/
@@ -44,17 +44,18 @@ DriftAware-OnlineLearning/
 ├── requirements.txt
 └── .gitignore
 
-## Install
+```
+### Install
 python -m venv .venv
-# macOS/Linux:
+#### macOS/Linux:
 source .venv/bin/activate
-# Windows (PowerShell):
-# .\.venv\Scripts\Activate.ps1
+#### Windows (PowerShell):
+#### .\.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
 
 
-## Quickstart (CLI)
+### Quickstart (CLI)
 1) Generate a dataset (synthetic drift + anomaly injection)
   python src/generate_data.py
 2) Run streaming drift-aware anomaly detection (CLI)
@@ -62,15 +63,15 @@ pip install -r requirements.txt
 3) Plot the drift region (quick sanity check)
   python src/plot_stream.py
 
-## Running on your own CSV (recommended)
+### Running on your own CSV (recommended)
 Your CSV should include:
 ** a timestamp column (string or datetime) **
 ** 2+ numeric sensor columns (e.g., temperature, turbidity, oxygen, salinity)**
 
-### Typical columns
+#### Typical columns
 timestamp,temperature,turbidity,oxygen,salinity
 
-## 🔋 Low-Power Mode (Edge-friendly)
+### 🔋 Low-Power Mode (Edge-friendly)
 Low-power mode is intended for:
   Raspberry Pi / low-power experiments
   reduced update frequency
@@ -84,14 +85,16 @@ smaller LSTM (hidden=8)
 update every 10–20 steps
 smaller visible buffers / windows
 
-## Drift Adaptation ON/OFF (comparison for evidence)
+### Drift Adaptation ON/OFF (comparison for evidence)
 A key part of the project is demonstrating improvement when adaptation is enabled.
 Adaptation OFF: model error tends to remain higher during drift windows
 Adaptation ON: model updates on drift (or periodically) → error stabilizes faster
 
-### Citation
+#### Citation
+```bash
 @misc{orokpo_driftaware_onlinelearning_2025,
   title  = {Drift-Aware Online Learning for Real-Time Environmental Sensor Monitoring (CLI)},
   author = {Moses, Samuel},
   year   = {2025},
 }
+```
