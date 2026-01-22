@@ -1,7 +1,9 @@
+streamlit>=1.30,<2
+protobuf<6
+tensorflow==2.20.0
 pandas
 numpy
 matplotlib
 scipy
-tensorflow
-streamlit
 plotly
+
