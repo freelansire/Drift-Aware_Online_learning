@@ -90,11 +90,3 @@ A key part of the project is demonstrating improvement when adaptation is enable
 Adaptation OFF: model error tends to remain higher during drift windows
 Adaptation ON: model updates on drift (or periodically) → error stabilizes faster
 
-#### Citation
-```bash
-@misc{orokpo_driftaware_onlinelearning_2025,
-  title  = {Drift-Aware Online Learning for Real-Time Environmental Sensor Monitoring (CLI)},
-  author = {Moses, Samuel},
-  year   = {2025},
-}
-```
