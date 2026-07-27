@@ -60,7 +60,7 @@ pip install -r requirements.txt
   python src/generate_data.py
 2) Run streaming drift-aware anomaly detection (CLI)
   python src/online_detection.py
-3) Plot the drift region (quick sanity check)
+3) Plot the drift regions (quick sanity check)
   python src/plot_stream.py
 
 ### Running on your own CSV (recommended)
