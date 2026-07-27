@@ -24,7 +24,7 @@ This project demonstrates a **drift-aware streaming pipeline** that:
 - **Streaming pipeline**: processes sensor readings step-by-step (simulated real-time)
 - **Drift detection**: KL + Wasserstein on rolling windows
 - **Online learning**: optional adaptation ON/OFF (compare performance)
-- **Low-power mode**: smaller model + less frequent updates
+- **Low-power mode**: smaller model + less frequent update
 - **Proof outputs**: a reproducible `data/results.csv` log for plots, screenshots, and evidence
 
 ---
